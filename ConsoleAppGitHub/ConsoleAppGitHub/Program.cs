@@ -6,7 +6,14 @@ namespace ConsoleAppGitHub
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+        }
+            public class Cat
+        {
+            public string Name { get; set; }
+            public string Colour { get; set; }
+            public int Age { get; set; }
         }
     }
 }
+
+
